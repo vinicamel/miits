@@ -2,33 +2,25 @@
 
 Landing (HTML/CSS/JS) com lista de espera e envio opcional ao Google Forms (`js/google-form-config.js`).
 
-## Site no GitHub Pages (recomendado: GitHub Actions)
+## Site no GitHub Pages (deploy pela branch `main`)
 
-Este repositório inclui um workflow em `.github/workflows/deploy-pages.yml` que publica o site a cada push na `main`.
+O site é **estático**: não precisa de GitHub Actions. O GitHub publica os arquivos da raiz do repositório direto.
 
-### O que fazer no GitHub (uma vez)
+### Ativar o Pages (uma vez — isso evita o erro 404 de “deployment”)
 
-1. Abra o repositório no GitHub → **Settings** (aba do repositório, não da sua conta).
-2. No menu lateral esquerdo, clique em **Pages** (em **Code and automation**).
-3. Em **Build and deployment** (ou só **Source** / **GitHub Pages**), em **Source**, escolha **GitHub Actions** — não “Deploy from a branch”.
-4. Se não aparecer **GitHub Actions** ainda, faça um **push** da `main` (ou use **Actions** → abra o workflow **Deploy GitHub Pages** → **Run workflow**) para rodar uma vez; depois volte em **Settings → Pages** e selecione **GitHub Actions**.
+1. Abra: **https://github.com/vinicamel/miits/settings/pages**
+2. Em **Build and deployment** → **Source**, escolha **Deploy from a branch** (não “GitHub Actions”).
+3. **Branch**: `main` · pasta **`/ (root)`** → **Save**.
 
-### Se não existir a seção “Build and deployment”
+Pronto: cada `git push` na `main` atualiza o site em alguns minutos.
 
-- Confirme que você é **admin** do repositório.
-- Repositório **público**: Pages no plano free funciona.
-- Repositório **privado**: Pages pode exigir plano pago; nesse caso use um repo público só para a landing ou veja [documentação](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages).
+### URL
 
-### URL do site
+**https://vinicamel.github.io/miits/**
 
-Após o deploy com sucesso (aba **Actions** com ✓ verde):
+(troque `vinicamel` pelo seu usuário, se for outro.)
 
-**`https://vinicamel.github.io/miits/`**
+### Observações
 
-(troque `vinicamel` pelo seu usuário.)
-
-### Alternativa sem Actions
-
-Em **Settings → Pages**, se existir **Deploy from a branch**: branch **`main`**, pasta **`/ (root)`**.
-
-Arquivo **`.nojekyll`** evita que o GitHub trate o site como Jekyll.
+- Repositório **privado** no plano free: GitHub Pages pode não estar disponível; use repo **público** para a landing ou veja [About GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages).
+- Arquivo **`.nojekyll`** evita que o GitHub trate o site como Jekyll.
