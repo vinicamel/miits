@@ -64,6 +64,18 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a.logo:hover {
+  filter: brightness(1.05);
+}
+
+a.logo:focus-visible {
+  outline: 2px solid var(--tinder-2);
+  outline-offset: 4px;
+  border-radius: 6px;
 }
 
 .nav-links {
