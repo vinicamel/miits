@@ -14,10 +14,10 @@
   <header class="nav">
     <div class="logo">Miits</div>
     <nav class="nav-links" aria-label="Principal">
-      <a href="#lista-espera">Lista de espera</a>
       <a href="#como-funciona">Como funciona</a>
-      <a href="#modalidades">Modalidades</a>
       <a href="#plataforma">Plataforma</a>
+      <a href="#modalidades">Modalidades</a>
+      <a href="#lista-espera">Lista de espera</a>
     </nav>
     <button type="button" class="nav-cta" data-scroll-to="lista-espera">Quero entrar</button>
   </header>
@@ -111,37 +111,6 @@
     </div>
   </section>
 
-  <section id="lista-espera" class="waitlist" aria-labelledby="waitlist-title">
-    <div class="waitlist-inner">
-      <p class="section-label">Pré-lançamento</p>
-      <h2 class="section-title" id="waitlist-title">Lista de espera</h2>
-      <div class="waitlist-card">
-        <p class="sub">Informe <strong>nome</strong> e <strong>e-mail</strong> (obrigatórios) e, se quiser, <strong>telefone</strong> — e garanta seis meses de premium de graça! Sem spam, só vai receber o aviso do lançamento do Miits.</p>
-        <form id="waitlist-form" novalidate>
-          <div class="form-group">
-            <label for="fullName">Nome completo <span class="req-mark" aria-hidden="true">*</span></label>
-            <input type="text" id="fullName" name="fullName" autocomplete="name" required placeholder="Seu nome" aria-required="true" />
-          </div>
-          <div class="form-group">
-            <label for="email">E-mail <span class="req-mark" aria-hidden="true">*</span></label>
-            <input type="email" id="email" name="email" autocomplete="email" required placeholder="voce@email.com" aria-required="true" />
-          </div>
-          <div class="form-group form-group-optional">
-            <label for="phone">Telefone / WhatsApp <span class="optional-mark">(opcional)</span></label>
-            <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="(00) 00000-0000" inputmode="tel" aria-required="false" />
-          </div>
-          <p class="form-hint">
-            Ao enviar, você concorda em receber comunicações sobre o Miits. Os dados serão usados conforme a LGPD quando o produto estiver no ar.
-          </p>
-          <button type="submit" class="btn-primary form-submit">Quero fazer parte</button>
-          <div id="form-success" class="form-success" role="status">
-            Obrigado! Você entrou na lista. Em breve entramos em contato.
-          </div>
-        </form>
-      </div>
-    </div>
-  </section>
-
   <section id="como-funciona" class="how">
     <div class="how-inner">
       <p class="section-label">Fluxo</p>
@@ -225,6 +194,37 @@
           <p>Rede baixa, pontos rápidos — sempre em dupla.</p>
           <span class="badge-2v2">2 × 2</span>
         </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="lista-espera" class="waitlist" aria-labelledby="waitlist-title">
+    <div class="waitlist-inner">
+      <p class="section-label">Pré-lançamento</p>
+      <h2 class="section-title" id="waitlist-title">Lista de espera</h2>
+      <div class="waitlist-card">
+        <p class="sub">Informe <strong>nome</strong> e <strong>e-mail</strong> (obrigatórios) e, se quiser, <strong>telefone</strong> — e garanta seis meses de premium de graça! Sem spam, só vai receber o aviso do lançamento do Miits.</p>
+        <form id="waitlist-form" novalidate>
+          <div class="form-group">
+            <label for="fullName">Nome completo <span class="req-mark" aria-hidden="true">*</span></label>
+            <input type="text" id="fullName" name="fullName" autocomplete="name" required placeholder="Seu nome" aria-required="true" />
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail <span class="req-mark" aria-hidden="true">*</span></label>
+            <input type="email" id="email" name="email" autocomplete="email" required placeholder="voce@email.com" aria-required="true" />
+          </div>
+          <div class="form-group form-group-optional">
+            <label for="phone">Telefone / WhatsApp <span class="optional-mark">(opcional)</span></label>
+            <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="(00) 00000-0000" inputmode="tel" aria-required="false" />
+          </div>
+          <p class="form-hint">
+            Ao enviar, você concorda em receber comunicações sobre o Miits. Os dados serão usados conforme a LGPD quando o produto estiver no ar.
+          </p>
+          <button type="submit" class="btn-primary form-submit">Quero fazer parte</button>
+          <div id="form-success" class="form-success" role="status">
+            Obrigado! Você entrou na lista. Em breve entramos em contato.
+          </div>
+        </form>
       </div>
     </div>
   </section>
