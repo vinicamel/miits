@@ -120,12 +120,34 @@ section#na-pratica {
   margin: 0 auto;
 }
 
+.para-quem-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  text-align: center;
+  line-height: 1.2;
+  padding: 0 0.5rem;
+}
+
+.para-quem-heading-main {
+  display: block;
+}
+
+.para-quem-heading-sub {
+  display: block;
+  font-size: clamp(1rem, 3vw, 1.25rem);
+  font-weight: 800;
+  color: var(--ocean);
+  letter-spacing: -0.02em;
+}
+
 .personas-intro {
   text-align: center;
   font-size: 0.95rem;
   color: var(--text-muted);
   max-width: 40rem;
-  margin: -1.5rem auto 2rem;
+  margin: 0 auto 2rem;
   line-height: 1.55;
 }
 
@@ -175,6 +197,28 @@ section#na-pratica {
   margin: 0 auto;
 }
 
+.pratica-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  text-align: center;
+  line-height: 1.2;
+  padding: 0 0.5rem;
+}
+
+.pratica-heading-main {
+  display: block;
+}
+
+.pratica-heading-sub {
+  display: block;
+  font-size: clamp(1rem, 3vw, 1.25rem);
+  font-weight: 700;
+  color: var(--sand-yellow-deep);
+  letter-spacing: 0.02em;
+}
+
 .pratica-list {
   list-style: none;
   margin: 0;
@@ -210,7 +254,9 @@ section#na-pratica {
   justify-content: center;
 }
 
-.pratica-list li div {
+.pratica-list li > div {
+  flex: 1;
+  min-width: 0;
   font-size: 0.92rem;
   color: var(--text-muted);
   line-height: 1.55;
@@ -550,6 +596,15 @@ section#na-pratica {
   letter-spacing: -0.02em;
   margin-bottom: 2.5rem;
   color: var(--text);
+}
+
+/* Títulos em duas linhas (sobrescreve margin do .section-title) */
+.section-title.para-quem-heading {
+  margin-bottom: 1rem;
+}
+
+.section-title.pratica-heading {
+  margin-bottom: 1.5rem;
 }
 
 /* —— Waitlist —— */
