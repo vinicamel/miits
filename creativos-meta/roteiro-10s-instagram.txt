@@ -5,7 +5,7 @@ Formato: 9:16 · total: 10,0 s · legenda queimada, fonte grossa, leitura fácil
 Base: meta description + hero (badge, título, lead) + CTA da landing.
 
 Referência no site:
-  • Título da página: "Encontre pessoas jogar perto de você!"
+  • Título da página: "Encontre pessoas para jogar perto de você!"
   • Badge: "2×2 · Vôlei · Futevôlei · Beach tennis · Pádel"
   • H1: "Ache sua dupla ou uma dupla para desafiar nas quadras e ganhe seu destaque"
   • Lead: vôlei de praia, futevôlei, beach tennis ou pádel em 2×2; marcar jogo com gente do
