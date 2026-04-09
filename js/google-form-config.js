@@ -1,7 +1,12 @@
 /**
  * Google Form: "Pessoas interessadas no Miits"
- * IDs obtidos do formulário publicado (campos: Nome, E-mail, Modalidade, Telefone).
- * Modalidade: entry.726228757 (lista suspensa no Google Forms — opções devem coincidir com o site).
+ * Só enviamos 3 campos ao Google: Nome, E-mail, Telefone (entry.* abaixo).
+ * A modalidade escolhida no site é concatenada no texto do Telefone, ex.:
+ *   Modalidade: Pádel · (11) 98888-7777
+ * Assim não dependemos de lista suspensa no Forms (que gerava HTTP 400 se o texto não batia).
+ * Você pode apagar a pergunta extra "Modalidade" no editor do Forms, se ainda existir.
+ *
+ * O envio na página é feito por POST em formulário + iframe (waitlist.js), não por fetch.
  */
 window.MIITS_GOOGLE_FORM = {
   enabled: true,
@@ -10,7 +15,6 @@ window.MIITS_GOOGLE_FORM = {
   entries: {
     name: "entry.1995761298",
     email: "entry.170370593",
-    modality: "entry.726228757",
     phone: "entry.232930744",
   },
 };
