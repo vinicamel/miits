@@ -1,0 +1,101 @@
+================================================================================
+MIITS — PROPAGANDAS NO META COMEÇANDO PELAS IMAGENS
+================================================================================
+Arquivos (pasta creativos-meta/):
+  • miits-ad-01-dupla.png   → dupla / time / “achar parceiro”
+  • miits-ad-02-acao.png   → energia / esporte de praia / movimento
+  • miits-ad-03-regiao.png → beach tennis (visual alinhado à modalidade do site)
+
+URL do anúncio (use a que estiver estável):
+  https://www.miits.com.br
+
+Antes de subir: no Canva (ou editor), exporte cada arte em 1:1 (1080×1080) e/ou
+4:5 (1080×1350) — o Meta aceita vários formatos no mesmo conjunto de anúncios.
+
+
+--------------------------------------------------------------------------------
+PASSO A PASSO RÁPIDO (META ADS MANAGER)
+--------------------------------------------------------------------------------
+1) business.facebook.com → Gerenciador de Anúncios → Criar.
+2) Objetivo: Tráfego (ou Reconhecimento, se só quiser alcance).
+3) Conjunto de anúncios: público (idade, região, interesses: vôlei de praia, beach
+   tennis, futevôlei, pádel, esportes na praia), orçamento diário, posicionamentos —
+   Instagram Feed + Stories/Reels se quiser.
+4) Nível do anúncio: “Uma imagem” → carregar os 3 arquivos em 3 anúncios diferentes
+   OU teste dinâmico de criativo com as 3 imagens (conforme a interface).
+5) Texto principal, título, descrição e CTA: copie dos blocos abaixo (um por imagem).
+6) Publicar e aguardar aprovação.
+
+
+--------------------------------------------------------------------------------
+ANÚNCIO A — IMAGEM miits-ad-01-dupla.png
+--------------------------------------------------------------------------------
+Ângulo: dupla, desafio, “quem joga comigo”
+
+Texto principal (copiar):
+  Miits é pra quem joga vôlei de praia, futevôlei, beach tennis e pádel em 2×2. Ache sua dupla
+  ou uma dupla pra desafiar perto de você — com ranking regional. Entre na lista de
+  espera e seja avisado no lançamento.
+
+Título (se o formato pedir):
+  Partidas 2×2 perto de você
+
+Descrição (opcional):
+  Lista de espera · miits.com.br
+
+CTA sugerido:
+  Saiba mais  (ou  Inscrever-se)
+
+
+--------------------------------------------------------------------------------
+ANÚNCIO B — IMAGEM miits-ad-02-acao.png
+--------------------------------------------------------------------------------
+Ângulo: intensidade, jogo sério, nível
+
+Texto principal:
+  Quer marcar jogo com gente do seu nível, na quadra ou na areia? O Miits conecta duplas de vôlei de
+  praia, futevôlei, beach tennis e pádel — tudo em 2×2, com ranking na sua região. Cadastro na
+  lista de espera: miits.com.br
+
+Título:
+  Jogo com gente do seu nível
+
+Descrição:
+  Pré-lançamento · sem spam
+
+CTA:
+  Saiba mais
+
+
+--------------------------------------------------------------------------------
+ANÚNCIO C — IMAGEM miits-ad-03-regiao.png
+--------------------------------------------------------------------------------
+Ângulo: beach tennis + Miits (modalidades do site)
+
+Texto principal:
+  Beach tennis, vôlei de praia, futevôlei e pádel em 2×2: ache dupla, combine desafio e
+  acompanhe quem está em alta na sua região. Miits — lista de espera aberta em
+  miits.com.br
+
+Título:
+  2×2 · quatro modalidades
+
+Descrição:
+  Ranking regional · lista de espera
+
+CTA:
+  Saiba mais
+
+
+--------------------------------------------------------------------------------
+CHECKLIST ANTES DE ATIVAR
+--------------------------------------------------------------------------------
+[ ] Imagem nítida, rosto/bola ok (sem distorção gritante).
+[ ] Texto não promete app na loja se o site falar em pré-lançamento/lista de espera.
+[ ] Link de destino abre em HTTPS e é a landing correta.
+[ ] Mesmo conjunto: teste 3 anúncios com uma variável (imagem) e mesmo texto, ou
+    texto levemente diferente por criativo — veja qual CTR converte melhor.
+
+================================================================================
+FIM
+================================================================================

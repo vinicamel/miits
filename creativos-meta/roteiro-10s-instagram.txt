@@ -1,0 +1,70 @@
+================================================================================
+MIITS — ANIMAÇÃO 10s · INSTAGRAM (legendas = conteúdo do site)
+================================================================================
+Formato: 9:16 · total: 10,0 s · legenda queimada, fonte grossa, leitura fácil no celular
+Base: meta description + hero (badge, título, lead) + CTA da landing.
+
+Referência no site:
+  • Título da página: "Encontre pessoas jogar perto de você!"
+  • Badge: "2×2 · Vôlei · Futevôlei · Beach tennis · Pádel"
+  • H1: "Ache sua dupla ou uma dupla para desafiar nas quadras e ganhe seu destaque"
+  • Lead: vôlei de praia, futevôlei, beach tennis ou pádel em 2×2; marcar jogo com gente do
+    seu nível, perto de casa; ranking regional.
+  • Botão: "Entrar na lista de espera"
+
+
+--------------------------------------------------------------------------------
+CRONÔMETRO — O QUE APARECE NA TELA (LEGENDA / CARTÕES)
+--------------------------------------------------------------------------------
+Ajuste transições no editor (0,2–0,3 s de fade entre cartões).
+
+[ 0,0 – 2,0 s ]
+  Linha 1 (grande):  Miits
+  Linha 2 (menor):  2×2 · Vôlei · Futevôlei · Beach tennis · Pádel
+
+[ 2,0 – 4,5 s ]
+  Linha 1:  Ache sua dupla
+  Linha 2:  ou desafie outra dupla nas quadras
+
+[ 4,5 – 7,0 s ]
+  Linha 1:  Vôlei de praia, futevôlei, beach tennis e pádel
+  Linha 2:  Jogo com gente do seu nível, perto de você
+
+[ 7,0 – 9,0 s ]
+  Linha 1:  Ranking regional
+  Linha 2:  pra saber quem joga forte na sua região
+
+[ 9,0 – 10,0 s ]
+  Linha 1 (grande):  Lista de espera
+  Linha 2 (grande):  miits.com.br
+
+
+--------------------------------------------------------------------------------
+VOZ EM OFF (opcional — mesma ordem, ~palavras por segundo confortável)
+--------------------------------------------------------------------------------
+"Miits — vôlei de praia, futevôlei, beach tennis e pádel em dois contra dois.
+Ache sua dupla ou desafie outra dupla. Marque jogo perto de você, com ranking regional.
+Entre na lista de espera em miits ponto com ponto br."
+
+(Se couber melhor cortando: omitir a última frase e deixar só texto na tela no final.)
+
+
+--------------------------------------------------------------------------------
+VERSÃO ULTRA-CURTA (se 10s estiver apertado — 4 cartões só)
+--------------------------------------------------------------------------------
+0,0–2,5  Miits · 2×2 na areia (sub: Vôlei · Futevôlei · Beach tennis · Pádel)
+2,5–5,0  Ache dupla ou desafie nas quadras
+5,0–7,5  Jogo no seu nível, perto de casa · ranking regional
+7,5–10,0 Lista de espera · miits.com.br
+
+
+--------------------------------------------------------------------------------
+NOTA PARA ANIMAÇÃO
+--------------------------------------------------------------------------------
+• Não invente benefício que não esteja no site; o "6 meses de premium grátis" da lista
+  de espera não coube no 10s — use só na legenda fixa do post ou num segundo anúncio.
+• URL no anúncio: https://www.miits.com.br
+
+================================================================================
+FIM
+================================================================================

@@ -2,8 +2,8 @@
  * Lista de espera — localStorage + opcional Google Forms.
  *
  * GOOGLE FORMS — passo a passo:
- * 1) Acesse https://forms.google.com e crie um formulário com 3 perguntas (resposta curta):
- *    Nome completo, E-mail, Telefone (opcional pode ser “não obrigatório” nas configurações da pergunta).
+ * 1) Acesse https://forms.google.com e crie um formulário com as perguntas (resposta curta ou lista):
+ *    Nome completo, E-mail, Modalidade (as 4 opções do site), Telefone (opcional).
  * 2) Clique em Enviar (olho) para abrir o formulário publicado, clique com o botão direito →
  *    “Exibir código-fonte da página” (ou F12 → Elements) e procure por entry. seguido de números
  *    nos <input name="entry...."> — anote um ID por pergunta.
@@ -13,7 +13,7 @@
  *    .../forms/d/ID_DO_EDITAR/viewform — o envio usa outro formato:
  *    https://docs.google.com/forms/d/e/ID_PUBLICADO/formResponse
  *    O “ID publicado” aparece na URL ao clicar em Enviar → ícone de link: .../d/e/XXXXXXXX/formResponse
- * 4) Preencha js/google-form-config.js (formResponseUrl, entries.name/email/phone) e defina enabled: true.
+ * 4) Preencha js/google-form-config.js (formResponseUrl, entries.name/email/modality/phone) e defina enabled: true.
  *
  * Observação: o envio usa fetch em modo no-cors; o Google aceita, mas o navegador não mostra erro se falhar.
  * Mantemos o backup no localStorage.
@@ -29,14 +29,19 @@
 
   const elFullName = document.getElementById("fullName");
   const elEmail = document.getElementById("email");
+  const elModality = document.getElementById("modality");
   const elPhone = document.getElementById("phone");
 
-  if (!elFullName || !elEmail || !elPhone) {
+  if (!elFullName || !elEmail || !elModality || !elPhone) {
     return;
   }
 
+  elModality.addEventListener("change", function () {
+    if (elModality.value) elModality.classList.remove("error");
+  });
+
   function clearErrors() {
-    [elFullName, elEmail, elPhone].forEach(function (el) {
+    [elFullName, elEmail, elModality, elPhone].forEach(function (el) {
       el.classList.remove("error");
     });
   }
@@ -59,6 +64,7 @@
 
     var name = elFullName.value.trim();
     var email = elEmail.value.trim();
+    var modality = elModality.value.trim();
     var phone = elPhone.value.trim();
 
     var valid = true;
@@ -70,6 +76,10 @@
       elEmail.classList.add("error");
       valid = false;
     }
+    if (!modality) {
+      elModality.classList.add("error");
+      valid = false;
+    }
     if (!validatePhone(phone)) {
       elPhone.classList.add("error");
       valid = false;
@@ -79,6 +89,7 @@
     var entry = {
       name: name,
       email: email,
+      modality: modality,
       phone: phone.trim() || null,
       createdAt: new Date().toISOString(),
     };
@@ -95,6 +106,9 @@
       var params = new URLSearchParams();
       params.append(cfg.entries.name, name);
       params.append(cfg.entries.email, email);
+      if (cfg.entries.modality) {
+        params.append(cfg.entries.modality, modality);
+      }
       if (cfg.entries.phone) {
         params.append(cfg.entries.phone, phone.trim() || "");
       }

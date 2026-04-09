@@ -1,0 +1,161 @@
+================================================================================
+MIITS — 2 VÍDEOS CAPCUT (texto alinhado ao site miits.com.br)
+================================================================================
+Fonte de verdade: landing (hero, modalidades, lista de espera, proposta de valor).
+Não invente benefício que não esteja no site (ex.: só mencione “6 meses de premium
+grátis” se for igual à lista de espera).
+
+Formato: 9:16 (1080 × 1920) · música leve na biblioteca CapCut (esporte / verão).
+
+
+--------------------------------------------------------------------------------
+INSTRUÇÃO PARA IA / B-ROLL (NÃO VAI NO ROTEIRO FALADO — SÓ CRIAÇÃO VISUAL)
+--------------------------------------------------------------------------------
+Ao gerar ou escolher imagens e vídeos de apoio, use o equipamento correto por cena:
+  • Vôlei de praia → bola de vôlei de praia (não bola de quadra indoor).
+  • Futevôlei → bola de futebol.
+  • Beach tennis → raquetes de beach tennis + bola adequada à modalidade (não misturar com bola de vôlei).
+  • Pádel → raquete de pádel + bola de pádel (ou tipo adequado à quadra; não misturar com beach tennis).
+Nada disso precisa aparecer como texto no anúncio; é só para o vídeo ficar coerente.
+
+
+████████████████████████████████████████████████████████████████████████████████
+VÍDEO 1 — “O QUE É O MIITS” (descoberta / proposta)
+████████████████████████████████████████████████████████████████████████████████
+Duração alvo: 18–24 s · Tom igual ao hero + badge do site.
+
+Texto base do site (referência):
+  Badge: “2×2 · Vôlei · Futevôlei · Beach tennis · Pádel”
+  Título: “Ache sua dupla ou uma dupla para desafiar nas quadras e ganhe seu destaque”
+  Lead: “Para quem joga vôlei de praia, futevôlei, beach tennis ou pádel em 2×2 e quer marcar
+         jogo com gente do seu nível, perto de casa. Tudo com ranking regional para
+         você saber quem é o melhor perto de você.”
+
+--- PROMPT EXATO PARA COLAR NO CAPCUT (VÍDEO 1) ---------------------------------
+
+Vídeo vertical 9:16, 18 a 24 segundos, português Brasil, anúncio do produto Miits.
+Abertura com texto na tela inspirado no site: “2×2 · Vôlei · Futevôlei · Beach tennis · Pádel”.
+Em seguida mostrar ou narrar a ideia central do site: “Ache sua dupla ou uma dupla para
+desafiar nas quadras e ganhe seu destaque”. Depois resumir em uma frase o parágrafo
+principal: para quem joga vôlei de praia, futevôlei, beach tennis ou pádel em 2×2, quer marcar
+jogo com gente do seu nível perto de casa, com ranking regional para saber quem é o
+melhor na região. B-roll: praia, quadra de areia, duplas, energia esportiva. Ao escolher
+cenas com bola ou raquete, respeitar o equipamento correto de cada modalidade (vôlei de
+praia = bola de vôlei de praia; futevôlei = bola de futebol; beach tennis = raquetes e
+bola de beach tennis; pádel = raquete e bola de pádel). Não colocar texto explicando regras de bola no vídeo. Música
+discreta. Encerrar com texto “Miits” e “Partidas 2×2 perto de você”.
+
+--- CRONÔMETRO MANUAL ----------------------------------------------------------
+[00:00–00:04] Tela: “2×2 · Vôlei · Futevôlei · Beach tennis · Pádel”
+[00:04–00:10] Tela (2 linhas): “Ache sua dupla ou uma dupla para desafiar” / “e ganhe seu destaque”
+[00:10–00:20] VO ou legenda: texto do hero-lead do site (parágrafo do “Para quem joga…”).
+[00:20–00:24] Tela: “Miits” + “Partidas 2×2 perto de você”
+
+
+████████████████████████████████████████████████████████████████████████████████
+VÍDEO 2 — “LISTA DE ESPERA” (CTA + benefício do site)
+████████████████████████████████████████████████████████████████████████████████
+Duração alvo: 16–22 s · Alinhado à seção “Lista de espera” e formulário.
+
+Texto base do site (referência):
+  “Informe nome e e-mail (obrigatórios) e, se quiser, telefone — e garanta seis meses
+   de premium de graça! Sem spam, só vai receber o aviso do lançamento do Miits.”
+  Botão: “Quero fazer parte” / “Entrar na lista de espera” (hero)
+
+--- PROMPT EXATO PARA COLAR NO CAPCUT (VÍDEO 2) ---------------------------------
+
+Vídeo vertical 9:16, 16 a 22 segundos, português Brasil, anúncio para lista de espera
+do Miits. Explicar que quem se cadastra informa nome e e-mail obrigatórios e telefone
+opcional, e que a lista de espera garante seis meses de premium de graça conforme
+a página promocional, sem spam, apenas aviso do lançamento. Chamar para ação: entrar
+na lista de espera no site miits.com.br. B-roll: pessoas na areia, celular genérico
+(sem interface falsa de app), sensação de pré-lançamento. Se aparecer bola na cena,
+usar equipamento correto por modalidade (vôlei de praia / futebol / beach tennis / pádel) sem
+texto explicativo sobre bolas. Final 4 segundos com texto grande: “Lista de espera”
+e “miits.com.br”. Música leve.
+
+--- CRONÔMETRO MANUAL ----------------------------------------------------------
+[00:00–00:06] Tela: “Pré-lançamento Miits” ou “Lista de espera”
+[00:06–00:14] VO ou legenda: nome e e-mail obrigatórios, telefone opcional; seis meses
+              de premium grátis; sem spam; só aviso do lançamento (como no site).
+[00:14–00:20] Tela fixa: “Entre na lista de espera” + “miits.com.br”
+[VO opcional] “Cadastre-se em miits.com.br.”
+
+
+--------------------------------------------------------------------------------
+CHECKLIST
+--------------------------------------------------------------------------------
+[ ] Frases batem com a landing (sem prometer app na loja se o site falar em pré-lançamento).
+[ ] URL: https://www.miits.com.br
+[ ] Regra das bolas só na escolha de IA/B-roll — não no texto do anúncio, salvo se você
+    decidir incluir depois por conta própria.
+
+--------------------------------------------------------------------------------
+PROMPTS PARA RUNWAY (runwayml.com) — VÍDEO 1 E VÍDEO 2
+--------------------------------------------------------------------------------
+No Runway: escolha proporção VERTICAL (9:16). Muitas vezes cada geração dura só 5–10s;
+gere 2–4 clipes por vídeo e una no CapCut. Sem texto ilegível gerado pela IA — overlays
+de texto você coloca no CapCut. Equipamento: vôlei de praia = bola de beach volleyball;
+futevôlei = soccer ball; beach tennis = paddles + bola correta; pádel = pádel racket + pádel ball.
+
+--- RUNWAY — VÍDEO 1 (CLIPES “O QUE É O MIITS”) --------------------------------
+
+Use estes como 2 ou 3 prompts separados (mesma sessão / mesmo estilo visual).
+
+CLIP 1A — Abertura (areia / energia / quatro modalidades sugeridas no visual)
+Cinematic vertical 9:16, golden hour on a Brazilian beach, wide shot of a sand court
+with volleyball net, quick cut feeling: authentic beach volleyball with official beach
+volleyball ball, then soccer ball on sand for footvolley energy, then beach tennis
+paddles and low net with correct beach tennis ball, then pádel court with glass walls
+and pádel rackets with correct pádel ball — each shot realistic, no mixed
+equipment, diverse athletic adults 25–40, warm film grain, smooth camera drift, no text,
+no logos.
+
+CLIP 1B — Duplas e competição (alinhado ao site)
+Vertical 9:16, dynamic medium shots on beach sand, two pairs of players facing each
+other at the net, competitive but friendly body language, Brazilian coast background
+softly blurred, natural sunlight, shallow depth of field, subtle slow motion on a
+spike or kick, photorealistic sports documentary style, no text, no watermarks.
+
+CLIP 1C — Fechamento / “ranking” vibe (abstrato, sem UI falsa)
+Vertical 9:16, abstract premium sports motion graphics feel over blurred beach bokeh:
+subtle particles suggesting leaderboard energy, coastal city silhouette at dusk,
+elegant minimal, no readable text, no fake app screenshot, cinematic color grade teal
+and warm sand tones.
+
+--- RUNWAY — VÍDEO 2 (CLIPES “LISTA DE ESPERA”) ---------------------------------
+
+CLIP 2A — Pré-lançamento / expectativa
+Vertical 9:16, hopeful pre-launch mood: diverse adults on beach sand at sunset checking
+a smartphone from behind (screen not visible, no fake UI), volleyball net in background,
+soft breeze, warm emotional tone, anticipation, Brazilian beach, photorealistic, no text.
+
+CLIP 2B — Comunidade + CTA visual (sem texto na IA)
+Vertical 9:16, group of friends in sportswear walking toward sand courts, smiles,
+weekend energy, subtle handshake or fist bump, ocean horizon, uplifting documentary
+style, natural light, no logos, no on-screen text.
+
+CLIP 2C — Fechamento calmo (para cortar com tela “miits.com.br” no CapCut)
+Vertical 9:16, slow push-in on empty sand court at blue hour, net silhouette, peaceful
+end frame suitable for title card overlay, minimal, cinematic, no text.
+
+--- COPIA ÚNICA (se o Runway aceitar um bloco só por vídeo) --------------------
+
+VÍDEO 1 — PROMPT ÚNICO (inglês):
+Cinematic vertical 9:16 Brazilian beach sports advertisement B-roll, golden hour,
+photorealistic: sequence showing beach volleyball with proper beach volleyball ball,
+footvolley moment with soccer ball on sand, beach tennis with paddles and correct ball
+at low net, pádel doubles on enclosed court with pádel rackets and correct pádel ball —
+never mix wrong ball types. Athletic diverse adults, competitive friendly
+energy, smooth camera moves, documentary look, shallow depth of field, warm color grade,
+no text overlays, no logos, no watermarks.
+
+VÍDEO 2 — PROMPT ÚNICO (inglês):
+Cinematic vertical 9:16, pre-launch waitlist mood for a beach sports app, Brazilian
+beach, diverse adults, one shot from behind holding smartphone with screen not visible,
+community walking to sand courts, hopeful sunset light, authentic documentary style,
+no fake app interface, no readable text, no logos, calm uplifting tone.
+
+================================================================================
+FIM
+================================================================================
